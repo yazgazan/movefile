@@ -1,3 +1,3 @@
-#Move
+#Movefile
 ##installation
     npm install movefile
