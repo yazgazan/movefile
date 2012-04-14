@@ -1,0 +1,16 @@
+{
+  "name": "movefile",
+  "description": "move implementation working over devices",
+  "version": "0.1.0",
+  "author": "yazgazan <yazgazan@gmail.com>",
+  "main": "./build/Release/movefile",
+  "directories": {
+    "lib": "./build/Release/"
+  },
+  "scripts": {
+    "preinstall": "make || gmake"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
