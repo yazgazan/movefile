@@ -1,9 +1,11 @@
 {
   "name": "movefile",
-  "description": "move implementation working over devices",
+  "description": "rename implementation working over devices",
   "version": "0.1.0",
   "author": "yazgazan <yazgazan@gmail.com>",
   "main": "./build/Release/movefile",
+  "keywords": ["move", "file", "rename"],
+  "repository": "git://github.com/yazgazan/movefile.git",
   "directories": {
     "lib": "./build/Release/"
   },
