@@ -10,9 +10,12 @@
     "lib": "./build/Release/"
   },
   "scripts": {
-    "preinstall": "make || gmake"
+    "install": "./node_modules/node-gyp/bin/node-gyp.js configure && ./node_modules/node-gyp/bin/node-gyp.js build"
   },
   "engines": {
     "node": "*"
+  },
+  "dependencies": {
+    "node-gyp": "~0.9.1"
   }
 }
