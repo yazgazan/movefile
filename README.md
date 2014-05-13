@@ -1,10 +1,17 @@
-#Movefile
-##installation
-    npm install movefile
+# Movefile
 
-make and python are required to compile movefile
+Movefile is a rename implementation working over device (linux and BSD only).
 
-##Using Movefile
+## installation
+
+```bash
+npm install movefile
+```
+
+make and python are required to compile movefile.
+
+## Using Movefile
+
 ```js
 var mv = require('movefile');
 
